@@ -1,7 +1,7 @@
 class NewoTool < Formula
   desc "A CLI tool for Newo"
   homepage "https://github.com/twinmind-pro/newo-tool"
-  version "0.1.0"
+  version "0.2.1"
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/twinmind-pro/newo-tool/releases/download/v0.2.1/newo-v0.2.1-darwin-amd64.tar.gz"
